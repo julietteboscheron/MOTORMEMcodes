@@ -2,7 +2,7 @@
 
 This repository contains MATLAB scripts used to preprocess, model, and analyze the MOTORMEM fMRI dataset, investigating motor reinstatement during episodic memory retrieval.
 
-A demo dataset is available at 10.5281/zenodo.19561204.
+A demo dataset is available at https://zenodo.org/records/19561204?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjRjMjliNmQ0LTMzNmQtNDZjZS1hZjBmLTMzODk4NjZmMmRjNyIsImRhdGEiOnt9LCJyYW5kb20iOiJmMjZkYTFjY2RmNWM5ODE2MzYzYjAzNzJjOWViYjQ1ZiJ9.L7uOYBuoWTVetym1FsgXuJEOa9SqXl1sxhlLrkW0BPgFYlUdf6yf8yl9-6mlELmDk0PvyxOkg5ru0i6EZk5JeA.
 
 The full dataset will be made public soon but is not yet available due to its large size (120gb) and ethical restrictions with human fMRI data.
 
