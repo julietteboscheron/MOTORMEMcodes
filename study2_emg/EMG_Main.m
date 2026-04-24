@@ -9,10 +9,6 @@ close all
 %% Init
 % Prepare fieldtrip
 
-%% For Mac%% 
-%ft_path = '../Toolbox_/fieldtrip-20240111';
-
-%% For Windows %%
 ft_path = 'Z:\Projects\Memory_Boscheron_2024_Motormem_EMG_PS\Toolbox_\fieldtrip-20240111';
 
 addpath(ft_path);
@@ -22,8 +18,6 @@ addpath('Tools');
 % Subject list
 
 % Removing subjects 58 and 59 for analysis since they had no triggers
-
-%subj_list = setdiff(51:80, [54, 58, 59, 64, 75, 79]);
 subj_list = setdiff(51:80, [58, 59]);
 
 % Select session: 'encoding' or 'recall'
@@ -166,20 +160,10 @@ Compute_OngoingAct(cfg);
 
 
 %% Analysis
-    
-% Prepare data for analysis (averaging over trials/time...)
-cfg = [];
-cfg.subj_list = setdiff(51:80, [54, 58, 59, 64, 75, 79]);
-cfg.exp_session = exp_session;
-cfg.flag_rectif = -1;
-cfg.flag_bsl = 1; 
-cfg.epoch_label = 'WholeTrial';
-cfg.cond = 'trial_cond';  % 'trial_cond': foot/no foot condition; 'SDT': signal detection theory conditions
-Analyze_OngoingAct_PrepData(cfg);
 
 % Analyze ongoing activity
 cfg = [];
-cfg.subj_list = setdiff(51:80, [54, 58, 59, 64, 75, 79]);
+cfg.subj_list = setdiff(51:80, [54, 58, 59, 64, 73, 75, 79]);
 cfg.exp_session = exp_session;
 cfg.flag_rectif = -1;
 cfg.flag_bsl = 1; 
