@@ -46,27 +46,27 @@ No non-standard hardware is required.
 ### Scripts
 
 1. Preprocessing  
-   fmri_preprocessing.m
+   `fmri_preprocessing.m`
 
 2. Event extraction  
-   specify_onsetsandurations_runs.m  
-   specify_onsetsandurations_footloc.m  
+   `specify_onsetsandurations_runs.m`  
+   `specify_onsetsandurations_footloc.m`  
 
 3. First-level analyses  
-   specifyfirstlevel_relivingwhole.m  
-   specifyfirstlevel_relivinghalf.m  
-   specifyfirstlevel_footloc.m  
+   `specifyfirstlevel_relivingwhole.m`  
+   `specifyfirstlevel_relivinghalf.m`  
+   `specifyfirstlevel_footloc.m`  
 
 4. Second-level analyses  
-   secondlevelrelivinganalysis.m  
-   secondlevelPManalysis.m  
+   `secondlevelrelivinganalysis.m`  
+   `secondlevelPManalysis.m`  
 
 5. Foot localiser analysis  
-   localizers_definition.m  
-   footloc_ttest.m  
+   `localizers_definition.m`  
+   `footloc_ttest.m`  
 
 6. Functional connectivity  
-   conn_analysis.m  
+   `conn_analysis.m`  
 
 Scripts are designed to be run sequentially, although each step can be executed independently once its inputs are available.
 

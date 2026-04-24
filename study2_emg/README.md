@@ -50,7 +50,6 @@ All toolboxes must be added to the MATLAB path prior to running the scripts.
 
 8. Group analysis  
    `Analyze_OngoingAct.m`  
-   `Analyze_OngoingAct_PrepData.m`
 
 ---
 
